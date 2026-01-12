@@ -1,0 +1,20 @@
+{
+  "name": "comet-voice-module-tests",
+  "version": "1.0.0",
+  "description": "Comprehensive Voice Module Testing Suite for Comet Assistant & Agent",
+  "main": "src/VoiceModule.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:verbose": "jest --verbose"
+  },
+  "keywords": ["voice", "module", "testing", "comet", "ai"],
+  "author": "Comet Contributors",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
